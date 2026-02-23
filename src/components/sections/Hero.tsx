@@ -73,14 +73,14 @@ export function Hero() {
             <div className="relative">
               <Media
                 item={media.hero.image}
-                className="h-[420px] md:h-[520px] shadow-crisp"
+                className="h-[420px] md:h-[520px]"
               />
-              <div className="absolute -bottom-8 -left-6 rounded-2xl border border-border bg-bg/85 backdrop-blur px-4 py-3 shadow-soft">
+              {/* <div className="absolute -bottom-8 -left-6 rounded-2xl border border-border bg-bg/85 backdrop-blur px-4 py-3 shadow-soft">
                 <p className="text-xs text-muted">Typical outcomes</p>
                 <p className="mt-1 text-sm">
                   Fewer handoffs • Cleaner data • Faster follow-up
                 </p>
-              </div>
+              </div> */}
             </div>
           </Reveal>
         </div>
