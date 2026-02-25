@@ -73,7 +73,7 @@ export function Hero() {
             <div className="relative">
               <Media
                 item={media.hero.image}
-                className="h-[420px] md:h-[520px]"
+                className="h-[350px] w-[350px] md:h-[550px] md:w-[550px]"
               />
               {/* <div className="absolute -bottom-8 -left-6 rounded-2xl border border-border bg-bg/85 backdrop-blur px-4 py-3 shadow-soft">
                 <p className="text-xs text-muted">Typical outcomes</p>

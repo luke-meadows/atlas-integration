@@ -20,7 +20,7 @@ export const media = {
 
   hero: {
     image: {
-      src: '/laptop-reports-sq.png',
+      src: '/hero-dashboard-laptop.png',
       alt: 'Atlas Integration — CRM systems overview',
       label: 'Hero image (dashboard mockup or abstract systems graphic)',
     } as MediaItem,
